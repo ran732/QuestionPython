@@ -5,7 +5,7 @@ user=int(input("Enter any number : "))
 sum=0
 
 if user==0:
-    print("Length of number is 1")  
+    print("Sum of digit is 0")  
 else:
     while user>0:
       DigitSum =user%10     # last digit                    
@@ -13,4 +13,4 @@ else:
       user =user//10       # remove last digit
      
     
-    print("Length of number is ",sum)    
+    print("Sum of digits is ",sum)    
