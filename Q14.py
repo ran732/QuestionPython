@@ -5,12 +5,12 @@ user = input ("Username : ")
 if user == "Ranjeet123":
     
     otpNum=random.randint(1000,9999)
-    otp=print("otp number is ",otpNum)
+    otp1=print("otp number is ",otpNum)
 
-    input("OTP = ")
+    otp2=int(input("OTP = "))
    
     
-    if otp == otpNum :
+    if otp2 == otpNum :
         print("Login Successfully!")
     else:
         print("Enter Wrong OTP")    
