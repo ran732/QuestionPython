@@ -8,7 +8,10 @@ if user==0:
     print("Length of number is 1")  
 else:
     while user>0:
-      user =user//10
+      user =user//10     
       count= count+1
     
-    print("Length of number is ",count)    
+    print("Length of number is ",count)   
+    
+    
+    print ("The End") 
