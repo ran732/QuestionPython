@@ -1,0 +1,1 @@
+input digit [0-9] and print in word

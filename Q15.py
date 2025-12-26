@@ -1,3 +1,10 @@
+# Write a program to input digit [0-9] and print in word
+# input : 4
+# output :Four
+
+
+
+
 digit =int(input("Enter any digit from[0-9] : ")) 
 match (digit) :
     case 0:
