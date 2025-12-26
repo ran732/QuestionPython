@@ -5,7 +5,7 @@ print("3.Area of Rectangle")
 print("4.Exit")
 
 
-op=int(input("Enter a number from[1-4] : "))
+op=int(input("Enter a number from[1-4] :" ))
 match (op) :
     
  case 1 :
