@@ -1,19 +1,26 @@
-# Write program to login with OTP
+digit =int(input("Enter any digit from[0-9] : ")) 
+match (digit) :
+    case 0:
+        print("Zero")
+    case 1:
+        print("One")
+    case 2:
+        print("Two")
+    case 3:
+        print("Three")
+    case 4:
+        print("Four")
+    case 5:
+        print("Five")
+    case 6:
+        print("Six")
+    case 7:
+        print("Seven")
+    case 8:
+        print("Eight")
+    case 9:
+        print("Nine")
+    case _:
+        print("Invalid Digit")
 
-import random
-user = input ("Username : ")
-if user == "Ranjeet123":
     
-    otpNum=random.randint(1000,9999)
-    otp1=print("otp number is ",otpNum)
-
-    otp2=int(input("OTP = "))
-   
-    
-    if otp2 == otpNum :
-        print("Login Successfully!")
-    else:
-        print("Enter Wrong OTP")    
-
-else:
-    print("Please !! Correct your  username")    
