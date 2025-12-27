@@ -18,3 +18,4 @@ for ch in str :
 print("Alphabates are : ",ab)
 print("Digits are : ",d)
 print("Special Characters are : ",sc)   
+print("The end")
