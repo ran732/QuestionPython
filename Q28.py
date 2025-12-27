@@ -8,5 +8,8 @@
 
 
 num=int(input("Enter a number "))
+sum=0
 for i in range (1,11):
+    sum=sum+i
     print(num, "x",i,"=",num*i)
+print("Sum=",sum)    
