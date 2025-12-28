@@ -1,4 +1,4 @@
-# Write a program to display sum of odd numbers and even number that fall between 12 and 37
+# Write a program to display sum of even and odd between two numbers
 
 num1=int (input("Enter num1 : "))
 num2=int (input("Enter num2 : "))
