@@ -1,2 +1,1 @@
- # else:
-        #     print(' ',end=" ")
+a-1
