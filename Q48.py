@@ -1,3 +1,5 @@
+# find sum, maximum , minimum, and length of list without using len(list) function. 
+
 list=[19, 24, 31, 43, 25, 96, 71, 83]
 a=len(list)
 
