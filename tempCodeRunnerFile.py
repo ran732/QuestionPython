@@ -1,2 +1,1 @@
-
-# Sets Operation
+list1[1],list[2]
