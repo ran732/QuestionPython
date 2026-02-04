@@ -1,18 +1,9 @@
+# Q1. Arrange the values in a dictionary in ascending order
+# ex:
+#     Original Dictionary ={1:25,2:21,3:23}
+#     Expected Output=[21,25,32]
 
-# Q2. take input till n from the user and print dict(n,n*5)
-
-l1=[]
-l2=[]
-n=int(input("Enter n :"))
-for i in range(1,n+1):
-    l1.append(i)
-    l2.append(i*5)
-z=dict(zip(l1,l2))
-print(z)    
-
-# OR
-dict1={}
-n=int(input("Enter n :"))
-for i in range(1,n+1):
-    dict1[i]=i*5
-print(dict1)    
+odict = {1:25,2:21,3:23}
+val=list(odict.values())
+output=(sorted(val))
+print(output)
