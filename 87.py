@@ -3,7 +3,8 @@
 d1={1:2,2:90,3:50}
 
 print("For keys")
-val1=d1.values()
+val1=d1.values()    #list m ho gaya
+print(val1)
 
 maximum=max(val1)
 print("maximum = ",maximum)

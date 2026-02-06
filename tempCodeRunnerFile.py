@@ -1,1 +1,6 @@
-list1[1],list[2]
+val=[]
+# for i in kye:
+#     s=i+'@gmail.com'
+#     val.append(s)
+# print(val)    
+    
