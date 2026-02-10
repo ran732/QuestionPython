@@ -34,13 +34,15 @@ def simple_interest(amt,t,r):
     si=(amt*t*r)/100
     return si
 print(simple_interest(1000,2,10))
+# u=simple_interest(1000,2,10)
+# print(u)
 
 def fun1():
     return 10,20,30,40,50
-print(fun1())
+print(fun1()) #tuple
 
 #factorial of a functions
-def factorial(num:int):
+def factorial(num:int)->int: #->int return only integer
     fact=1
     for i in range(1,num+1):
         fact=fact*i
