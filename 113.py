@@ -4,7 +4,7 @@ def fun1(a,b=10,*c):
 def fun2(a,*c,b=10): #
     print(a,b,c)
 
-def fun3(*a,b):
+def fun3(*a,b):  #tuple
     print(a,b)
     
     
