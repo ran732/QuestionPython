@@ -24,3 +24,5 @@ res2=calculator(5,2,lambda a,b:a-b)
 res3=calculator(5,8,lambda a,b:a*b)
 res4=calculator(5,3,lambda a,b:a**b)
 print(res2,res3,res4,sep="\n")
+
+
