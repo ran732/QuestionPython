@@ -21,7 +21,7 @@ for v in a:
 print()    
 
     
-b=fun1()
+b=fun1() #function to list conversion
 list1=list(b)
 print(list1)    
 
