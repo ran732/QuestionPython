@@ -33,7 +33,7 @@ def reviter(s):
     for x in s:
         yield x
         
-list1=[10,20,30,40,50]
+list1=[10,20,30,40,5]
 a=iter(list1) #predefine iterator object
 for i in a:
     print(i,end=' ')  
