@@ -17,3 +17,10 @@ sys.setrecursionlimit(3)
 sayHello()   
 s=sys.getrecursionlimit()
 print(s)    
+
+# ⭐ Golden Rule of Recursion
+
+# Every recursion problem has:
+
+# 1️⃣ Base Case → stopping condition
+# 2️⃣ Recursive Case → smaller problem
