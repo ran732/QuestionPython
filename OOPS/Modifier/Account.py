@@ -16,7 +16,7 @@ class Account:
     def getBalance(self):
         return self.__balance
     
-    def printAccount(self):
+    def AccountDetails(self):
         print(f'{self.__accno}, {self.__aname},{self.__balance}')          
  
 obj1=None
@@ -57,7 +57,7 @@ while True :
         print(f'Balance is {bal:.2f}')
         
     if opt ==5 :
-        obj1.printAccount() 
+        obj1.AccountDetails() 
         
     if opt ==6:
         print("Exit Successfully from while loop !!")

@@ -24,5 +24,20 @@ print(ad)
 sb=cal.sub()  
 print(sb)     
 
-t=Triangle(12)
+t=Triangle(12,6)
 t.findArea()
+
+
+###########################################
+
+class Square:
+    def __init__(self,a=0):
+        self.side=a
+        if a<0:
+          raise ValueError ("Side can't be negative.")
+    def Area(self):
+        return self.side*self.side 
+    
+s1=Square(9)
+area=s1.Area()
+print(area)    

@@ -19,8 +19,8 @@ for i in range(n):
     p=Player(name,score) #Creating Object
     list1.append(p)
         
-for p in list1:
-    name=p.getName()    
-    score=p.getScore()    
-    print(name,score )
+for x in list1:
+    name=x.getName()    
+    score=x.getScore()    
+    
            

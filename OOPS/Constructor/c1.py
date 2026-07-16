@@ -6,7 +6,7 @@ class Student:
         
 Student()  #print automatically       
 Student()        
-Student()        
+       
       
 print()     
  #Constuctor without parameter
@@ -22,3 +22,8 @@ s1=Student()
 s2=Student()    
 print(s1.rollno,s1.name,s1.course)     
 print(s2.rollno,s2.name,s2.course)     
+
+
+
+
+

@@ -13,7 +13,7 @@ def sayHello():
     sayHello() #recursive call
     
 
-sys.setrecursionlimit(3)
+sys.setrecursionlimit(6)
 sayHello()   
 s=sys.getrecursionlimit()
 print(s)    

@@ -1,0 +1,1 @@
+print(s1.rollno,s1.name,s1.course) 

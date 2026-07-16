@@ -7,7 +7,8 @@ class Date:
 d1=Date()
 print(d1.dd,d1.mm,d1.yy)
 d2=Date(19,4,2026)
-print(d2.dd,d2.mm,d2.yy)        
+print(d2.dd,d2.mm,d2.yy)   
+     
 
 print()
 #################################################
@@ -28,3 +29,20 @@ e1.printEmployee()
 e2.printEmployee()
         
     
+#########################################
+
+class Employee:
+    def __init__(self,eno,en,s):
+        self.empno=eno
+        self.ename=en
+        self.salary=s
+        
+    def EmployeeAddress(self):
+       print(self.empno,self.ename,self.salary)        
+        
+e1=Employee(23,"Arav",30000) 
+e2=Employee(233,"Niwas",450000) 
+
+e1.EmployeeAddress()
+e2.EmployeeAddress()
+     
