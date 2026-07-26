@@ -1,0 +1,11 @@
+12,Lisa,Manupulating
+'1', 'nk', 'python'
+'2', 'suresh', 'java'
+'3', 'kishore', 'c++'
+'4', 'kiran', 'oracle'
+['1', 'nk', 'python'], ['2', 'suresh', 'java'], []['3', 'kishore', 'c++'], ['4', 'kiran', 'oracle']
+'1', 'nk', 'python'
+'2', 'suresh', 'java'
+'3', 'kishore', 'c++'
+'4', 'kiran', 'oracle'
+
